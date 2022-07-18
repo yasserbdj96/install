@@ -2,6 +2,7 @@ This repository to facilitate the installation of some applications and programs
 
 ## Apps List:
 * [`ngrok`](https://github.com/yasserbdj96/install/tree/main/apps/ngrok)
+* [`telegram`](https://github.com/yasserbdj96/install/tree/main/apps/telegram)
 
 
 all posts [`#yasserbdj96`](#yasserbdj96) ,all views my own.
