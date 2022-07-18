@@ -7,5 +7,5 @@
 #   |                                      |
 
 #START{
-sudo /usr/share/ngrok/ngrok $1 $2
+/usr/share/telegram/Telegram
 #}END.

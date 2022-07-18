@@ -1,0 +1,20 @@
+#   |                                      |
+# --+--------------------------------------+--
+#   |    Code by : yasserbdj96             |
+#   |    Email : yasser.bdj96@gmail.com    |
+# --+--------------------------------------+--
+#   |                                      |
+
+#START{
+[Desktop Entry]
+Name=Telegram
+Comment=Telegram Desktop messaging app
+GenericName=telegram
+Exec=sh -c '/usr/local/bin/telegram;${SHELL:-bash}'
+Icon=/usr/share/telegram/telegram.png
+Type=Application
+Terminal=true
+Categories=Desktop;messaging;app;
+MimeType=text/x-telegram
+Keywords=Telegram;messaging;
+#}END.

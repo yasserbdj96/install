@@ -8,32 +8,32 @@
 
 #START{
 # app name:
-appname="ngrok"
-APPNAME="ngrok"
+appname="telegram"
+APPNAME="Telegram"
 
-zipfile="ngrok-v3-stable-linux-amd64.tgz";
-url="https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz";
+zipfile="tsetup.4.0.2.tar.xz";
+url="https://updates.tdesktop.com/tlinux/tsetup.4.0.2.tar.xz";
 
 # download:
 download () {
-    if [ ! -f "./$appname" ] ; then
+    if [ ! -f "./$APPNAME" ] ; then
         if [ ! -f "./$zipfile" ] ; then
-	    wget "$url";
-	    tar xvzf ./$zipfile -C ./
-	else
-	    tar xvzf ./$zipfile -C ./
-	fi
+	        wget "$url";
+	        tar -xf ./$zipfile "$APPNAME/$APPNAME" -C ./ && cp "$APPNAME/$APPNAME" "./$APPNAME-x" && rm -r "$APPNAME" && mv "./$APPNAME-x" "./$APPNAME"
+	    else
+	        tar -xf ./$zipfile "$APPNAME/$APPNAME" -C ./ && cp "$APPNAME/$APPNAME" "./$APPNAME-x" && rm -r "$APPNAME" && mv "./$APPNAME-x" "./$APPNAME"
+	    fi
     fi
 }
 
 # install:
 if [ "$1" == "-i" ] ; then
     download;
-    chmod +x "$appname";
+    chmod +x "$APPNAME";
     sudo mkdir "/usr/share/$appname";
     #sudo cp -r "../$appname/." "/usr/share/$appname/$appname";
-    sudo cp "$APPNAME" "/usr/share/$appname/$appname";
-    sudo cp "$appname.svg" "/usr/share/$appname/$appname.svg";
+    sudo cp "$APPNAME" "/usr/share/$appname/$APPNAME";
+    sudo cp "$appname.png" "/usr/share/$appname/$appname.png";
     sudo cp "$appname.desktop" "/usr/share/applications/$appname.desktop";
     sudo cp "$appname.sh" "/usr/local/bin/$appname";
 
@@ -43,9 +43,8 @@ elif [ "$1" == "-u" ] ; then
     #sudo rm "/usr/share/$appname/$appname.png";
     sudo rm "/usr/share/applications/$appname.desktop";
     sudo rm "/usr/local/bin/$appname";
-
 # usage:
 else
-    echo "Usage: ngrok";
+    echo "Usage: telegram";
 fi
 #}END.
