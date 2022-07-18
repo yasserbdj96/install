@@ -1,0 +1,20 @@
+#   |                                      |
+# --+--------------------------------------+--
+#   |    Code by : yasserbdj96             |
+#   |    Email : yasser.bdj96@gmail.com    |
+# --+--------------------------------------+--
+#   |                                      |
+
+#START{
+[Desktop Entry]
+Name=ngrok
+Comment=ngrok is the programmable network edge that adds connectivity, security, and observability to your apps with no code changes.
+GenericName=ngrok
+Exec=sh -c '/usr/local/bin/ngrok;${SHELL:-bash}'
+Icon=/usr/share/ngrok/ngrok.svg
+Type=Application
+Terminal=true
+Categories=app;
+MimeType=text/x-ngrok
+Keywords=ngrok;
+#}END.
