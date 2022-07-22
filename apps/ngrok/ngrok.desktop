@@ -17,4 +17,9 @@ Terminal=true
 Categories=app;
 MimeType=text/x-ngrok
 Keywords=ngrok;
+
+[Desktop Action ngrok-http-80]
+Name=ngrok_http_80
+Exec=bash /usr/local/bin/ngrok http 80
+Icon=/usr/share/ngrok/ngrok.svg
 #}END.

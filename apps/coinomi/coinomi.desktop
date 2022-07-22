@@ -1,0 +1,19 @@
+#   |                                      |
+# --+--------------------------------------+--
+#   |    Code by : yasserbdj96             |
+#   |    Email : yasser.bdj96@gmail.com    |
+# --+--------------------------------------+--
+#   |                                      |
+
+#START{
+[Desktop Entry]
+Name=Coinomi Wallet
+GenericName=ngrok
+Exec=sh -c '/usr/local/bin/coinomi;${SHELL:-bash}'
+Icon=/usr/share/Coinomi/coinomi.png
+Type=Application
+Terminal=false
+Categories=Financial
+MimeType=text/html;
+Keywords=Bitcoin;Ethereum;Coinomi;Wallet;Crypto;
+#}END.
