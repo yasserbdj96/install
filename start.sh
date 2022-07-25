@@ -28,13 +28,14 @@ echo "";
 echo -e "${Green}1] ${Yellow}ngrok${Color_Off}";
 echo -e "${Green}2] ${Yellow}Telegram${Color_Off}";
 echo -e "${Green}3] ${Yellow}Coinomi Wallet${Color_Off}";
+echo -e "${Green}4] ${Yellow}Xampp${Color_Off}";
 echo -e "${Red}0] Exit${Color_Off}";
 echo "";
 
 
 
 function jumpto {
-    read -p 'Choose a number [1-3]: ' input;
+    read -p 'Choose a number [0-4]: ' input;
 
     if [ "$input" == "1" ] ; then
         app="ngrok";
@@ -42,6 +43,8 @@ function jumpto {
         app="telegram";
     elif [ "$input" == "3" ] ; then
         app="coinomi";
+    elif [ "$input" == "4" ] ; then
+        app="xampp";
     elif [ "$input" == "0" ] ; then
         exit;
     else

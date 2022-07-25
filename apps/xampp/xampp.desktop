@@ -1,0 +1,19 @@
+#   |                                      |
+# --+--------------------------------------+--
+#   |    Code by : yasserbdj96             |
+#   |    Email : yasser.bdj96@gmail.com    |
+# --+--------------------------------------+--
+#   |                                      |
+
+#START{
+[Desktop Entry]
+Name=xampp
+GenericName=xampp
+Exec=sh -c '/usr/local/bin/xampp;${SHELL:-bash}'
+Icon=/opt/lampp/xampp.png
+Type=Application
+Terminal=false
+Categories=Financial
+MimeType=text/html;
+Keywords=MariaDB;PHP;Perl;
+#}END.
