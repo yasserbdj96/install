@@ -36,6 +36,7 @@ if [ "$1" == "-i" ] ; then
     sudo cp "$appname.png" "/usr/share/$appname/$appname.png";
     sudo cp "$appname.desktop" "/usr/share/applications/$appname.desktop";
     sudo cp "$appname.sh" "/usr/local/bin/$appname";
+    sudo chmod +x "/usr/local/bin/$appname";
 
 # uninstall:
 elif [ "$1" == "-u" ] ; then
