@@ -1,0 +1,20 @@
+#   |                                      |
+# --+--------------------------------------+--
+#   |    Code by : yasserbdj96             |
+#   |    Email : yasser.bdj96@gmail.com    |
+# --+--------------------------------------+--
+#   |                                      |
+
+#START{
+[Desktop Entry]
+Name=etcher
+Comment=Flash OS images to SD cards & USB drives, safely and easily.
+GenericName=etcher
+Exec=sh -c '/usr/local/bin/etcher;${SHELL:-bash}'
+Icon=/usr/share/etcher/etcher.svg
+Type=Application
+Terminal=True
+Categories=app;
+MimeType=text/x-etcher
+Keywords=etcher;
+#}END.
