@@ -5,6 +5,7 @@ This repository to facilitate the installation of some applications and programs
 * [`Telegram`](https://github.com/yasserbdj96/install/tree/main/apps/telegram)
 * [`Coinomi Wallet`](https://github.com/yasserbdj96/install/tree/main/apps/coinomi)
 * [`Xampp`](https://github.com/yasserbdj96/install/tree/main/apps/xampp)
+* [`Etcher`](https://github.com/yasserbdj96/install/tree/main/apps/etcher)
 
 
 all posts [`#yasserbdj96`](#yasserbdj96) ,all views my own.
